@@ -1,0 +1,46 @@
+        html {
+            background-color: aliceblue;
+            font-size: medium;
+        }
+        
+        #title {
+            color: brown;
+            font-size: medium;
+            font-weight: 600;
+            font-style: italic
+        }
+        
+        h1 {
+            color: black;
+            font-size: larger;
+            font-style: italic;
+            font-weight: 500;
+        }
+        
+        h2 {
+            color: cadetblue;
+            font-size: medium;
+            font-style: unset;
+            font-weight: 400;
+        }
+        
+        #p1 {
+            color: chocolate;
+            font-size: small;
+            font-weight: 800;
+            font-style: initial;
+        }
+        
+        #p2 {
+            color: coral;
+            font-size: large;
+            font-weight: 900;
+            font-style: initial;
+        }
+        
+        #p3 {
+            color: blue;
+            font-size: x-large;
+            font-weight: bolder;
+            font-style: normal;
+        }
