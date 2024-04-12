@@ -62,13 +62,14 @@
             color: orange;
             font-size: larger;
             text-transform: uppercase;
+            text-align-last: center;
         }
         
         .a2 {
             color: red;
             font-size: larger;
             text-transform: uppercase;
-            text-align: center;
+            text-align-last: center;
         }
         
         .foot {
