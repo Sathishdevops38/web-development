@@ -13,6 +13,7 @@
         }
         
         h1 {
+            margin: 0;
             color: blue;
         }
         
@@ -27,16 +28,39 @@
             font-size: medium;
             font-weight: 700;
         }
+        
+        p {
+            margin: 0;
+        }
+        
+        .div {
+            height: 300px;
+            width: 300px;
+            border: 5px solid orange;
+        }
+        
+        .foot {
+            color: brown;
+            font-size: medium;
+            font-weight: 900;
+        }
     </style>
 </head>
 
 <body>
-    <h1> Infra Architect </h1>
-    <p id="p1"> AWS, Devops, Kubernetes, Datadog, Argocd, okta, kong Api, Ansible, CI/CD, Jenkins,</p>
-    <p id="p1">Docker, Git, Git actions, Terraform, Terraform cloud</p>
-    <p id="p2">Learnt HTML,CSS</p>
-    <p id="p2">Currently learning MERN(Mongo,Express,React,Node) Development tools</p>
-    <br/>Thank you</p>
+    <div class="div">
+        <h1> Infra Architect </h1>
+        <p id="p1"> AWS, Devops, Kubernetes, Datadog, Argocd, okta, kong Api, Ansible, CI/CD, Jenkins,</p>
+        <p id="p1">Docker, Git, Git actions, Terraform, Terraform cloud</p>
+        <hr/>
+        <p id="p2">Learnt HTML,CSS</p>
+        <p id="p2">Currently learning MERN(Mongo,Express,React,Node) Development tools</p>
+        <br/>
+        <hr/>Thank you</p>
+    </div>
+    <footer class="foot">
+        <p>&copy; 2024 Sathish. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
