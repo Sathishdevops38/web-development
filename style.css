@@ -86,3 +86,27 @@
             font-size: medium;
             font-weight: 900;
         }
+        
+        @media (min-width:100px) and (max-width:300px) {
+            body {
+                background-color: bisque;
+            }
+        }
+        
+        @media (min-width:301px) and (max-width:600px) {
+            body {
+                background-color: aqua;
+            }
+        }
+        
+        @media (min-width:601px) and (max-width:1200px) {
+            body {
+                background-color: darkgreen;
+            }
+        }
+        
+        @media (min-width:1200px) and (max-width:1600px) {
+            body {
+                background-color: darkcyan;
+            }
+        }
