@@ -67,6 +67,15 @@
             width: 70%;
         }
         
+        .rain {
+            border: 5px solid blue;
+            width: 100;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+        }
+        
         .a1 {
             color: orange;
             font-size: larger;
