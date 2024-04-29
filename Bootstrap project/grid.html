@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        html {
+            background-color: aqua;
+        }
+        
+        .container {
+            margin-left: 50%;
+            width: 300px;
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
+        
+        .v {
+            display: flex;
+            background-color: violet;
+            border: 3px solid red;
+            justify-content: center;
+            align-items: center;
+            font-size: large;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .I {
+            display: flex;
+            background-color: indigo;
+            border: 3px solid orange;
+            justify-content: center;
+            align-items: center;
+            font-size: large;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .B {
+            display: flex;
+            background-color: blue;
+            border: 3px solid yellow;
+            justify-content: center;
+            align-items: center;
+            font-size: large;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .G {
+            display: flex;
+            background-color: green;
+            border: 3px solid greenyellow;
+            justify-content: center;
+            align-items: center;
+            font-size: large;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .Y {
+            display: flex;
+            background-color: yellow;
+            border: 3px solid blue;
+            justify-content: center;
+            align-items: center;
+            font-size: large;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .O {
+            display: flex;
+            background-color: orange;
+            border: 3px solid indigo;
+            justify-content: center;
+            align-items: center;
+            font-size: large;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .R {
+            display: flex;
+            background-color: red;
+            border: 3px solid violet;
+            justify-content: center;
+            align-items: center;
+            font-size: large;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .container2 {
+            margin-top: 10%;
+            margin-left: 50%;
+            border: 2px solid black;
+            padding: 5px;
+            margin-right: auto;
+            height: 100px;
+            background-color: blanchedalmond;
+        }
+        
+        .container2>p {
+            color: blue;
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="v">Violet</div>
+        <div class="I">Indigo</div>
+        <div class="B">Blue</div>
+        <div class="G">Green</div>
+        <div class="Y">Yellow</div>
+        <div class="O">Orange</div>
+        <div class="R">Red</div>
+    </div>
+    <div class="container2">
+        <p> Hello Rainbow Colors</p>
+    </div>
+</body>
+
+</html>
